@@ -1,4 +1,3 @@
-// utils/trpcSwaggerIntegration.ts
 import { INestApplication } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppRouter } from '@server/trpc/trpc.router';

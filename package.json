@@ -8,7 +8,9 @@
     "apps/*"
   ],
   "scripts": {
-    "dev": "yarn workspaces run dev",
-    "test": "yarn workspaces run test"
+    "dev": "concurrently \"yarn workspace server dev\" \"yarn workspace web dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
   }
 }
