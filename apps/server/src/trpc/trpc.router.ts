@@ -9,6 +9,7 @@ export class TrpcRouter {
 
   appRouter = this.trpc.router({
     hello: this.trpc.procedure
+      .meta({ openapi: { method: 'GET', path: '/say-hello' } }) // 👈 openapi metadata
       .input(
         z.object({
           name: z.string().optional(),
