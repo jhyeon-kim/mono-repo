@@ -18,7 +18,7 @@ export class TrpcRouter {
       .query(({ input }) => {
         const { name } = input;
         return {
-          greeting: `Hello ${name ?? 'World'}!`,
+          greeting: `안녕하세요!!! ${name}`,
         };
       }),
   });
