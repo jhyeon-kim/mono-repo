@@ -6,7 +6,6 @@ export default async function Home() {
   return (
     <div>
       <p>{greeting}</p>
-
       <Image src="/nbcamp_part.jpg" alt="Example Image" width={300} height={300} />
     </div>
   );

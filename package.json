@@ -1,5 +1,5 @@
 {
-  "name": "nest-next-trpc",
+  "name": "mono-repo",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,5 +12,6 @@
   },
   "dependencies": {
     "concurrently": "^8.2.2"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
